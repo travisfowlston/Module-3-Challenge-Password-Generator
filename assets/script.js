@@ -15,7 +15,36 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page */
 
 // Assignment code here
+var chooseChar = function () {
+  
+  var userChoiceLower = prompt("Do you want to include lowercase letters?");
+    if (!userChoiceLower) {
+      userChoiceLower = "";
+    } else {
+      userChoiceLower = "abcdefghijklmnopqrstuvwxyz";      
+    }
 
+  var userChoiceUpper = prompt("Do you want to include UPPERCASE letters?");
+    if (!userChoiceUpper) {
+      userChoiceUpper = "";
+    } else {
+      userChoiceUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";      
+    }
+
+  var userChoiceNum = prompt("Do you want to include numbers [0123456789]?");
+    if (!userChoiceNum) {
+      userChoiceNum = "";
+    } else {
+      userChoiceNum = "0123456789";
+    }  
+  
+  var userChoiceSpecial = prompt("Do you want to include special characters [!@#$%?^&*]?");
+    if (!userChoiceSpecial) {
+      userChoiceSpecial = "";
+    } else {
+      userChoiceSpecial = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+    }
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
