@@ -8,7 +8,7 @@ The Module 3 Challenge objective was to create an application that an employee c
 
 ![deployment-screenshot](assets/images/deployment-screenshot.JPG)
 
-[Deployment Link]
+[Deployment Link](https://travisfowlston.github.io/Module-3-Challenge-Password-Generator/)
 
 ## Comments
 
